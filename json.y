@@ -8,7 +8,7 @@
 %token CLOSEHOOK "}"
 %token OPENBRACKET "["
 %token CLOSEBRACKET "]"
-%token COLUMN ":"
+%token SEMICOLON ":"
 %token COMMA ","
 
 %token STRING

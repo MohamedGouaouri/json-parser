@@ -19,7 +19,7 @@ CLOSEHOOK \}
 OPENBRACKET \[
 CLOSEBRACKET \]
 
-COLUMN :
+SEMICOLON :
 COMMA \,
 
 INLINECOMMENT \/\/{ANYTHING}
@@ -70,9 +70,9 @@ INLINECOMMENT \/\/{ANYTHING}
     return COMMA;
 }
 
-{COLUMN} {
-    printf(" COLUMN");
-    return COLUMN;
+{SEMICOLON} {
+    printf(" SEMICOLON");
+    return SEMICOLON;
 }
 
 
